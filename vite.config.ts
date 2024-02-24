@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/react-vite-redux-shadcn-ui-template/', // TODO document to set up this
+  base: '', // TODO document to set up this
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
